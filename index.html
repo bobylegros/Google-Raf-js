@@ -30,8 +30,8 @@
         <input id="google" type="text" name="search">
       </div>
       <div>
-        <button>Recherche Google</button>
-        <button onclick="updateInput();">J'ai de la chance</button>
+        <button onclick="updateInput();">Recherche Google</button>
+        <button>J'ai de la chance</button>
       </div>
     </form>
   </div>
@@ -53,3 +53,9 @@
 </footer>
 </body>
 </html>
+
+
+
+<!-- le trick que j'ai "oublié" à la dernière minute, c'est le onsubmit="votre_fonction
+_qui_met_a_jour_le_form_action();" qu'il faut ajouter au form (dans le html) ...
+c'est la seule chose qu'il manque pour valider l'étape soumissions du formulaire -->

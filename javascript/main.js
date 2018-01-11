@@ -21,6 +21,8 @@ function jaiDeLaChance(){
 function updateInput(){
   let text = document.getElementById("google").value;
   alert(text);
-  text = text.replace(/ /g, "+");
+  text = "https://www.google.fr/#q=" + text.replace(/ /g, "+");
   alert(text);
+  document.getElementById("google").action = text;
+
 }
