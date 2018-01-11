@@ -76,13 +76,14 @@ section#panel {
 section#section_button {
   display:block;
   text-align: center;
-  },
+}
 
-
+section#panel {
+  display:none;
+}
 
 body > section div {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 div#logo > img {
