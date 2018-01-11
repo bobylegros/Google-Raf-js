@@ -5,17 +5,25 @@
   <title>Google</title>
   <link rel="stylesheet" href="css/index.css">
    <link rel=icon href=favicon.ico>
+   <script src="javascript/main.js"></script>
 </head>
 <body>
 <header>
+  <span id="foo">bar</span>
   <span>
     <span><a href="#">Gmail</a></span>
     <span><a href="#">Images</a></span>
     <span><button id="apps"><img src="img/applications.png"></button></span>
-    <span><button id="connexion">Connexion</button></span>
+    <span><button id="connexion" onclick="toto();">Connexion</button></span>
+    <!--"toto" est de la syntaxe javascript-->
   </span>
 </header>
-<section id="panel">
+<section id="section_button">
+  <form>
+    <button>De la balle</button>
+  </form>
+</section>
+<!-- <section id="panel">
   <div id="logo">
     <img src="img/google.png" alt="Google logo">
   </div>
@@ -30,7 +38,7 @@
       </div>
     </form>
   </div>
-</section>
+</section> -->
 <footer>
   <div>
     <span>France</span>
