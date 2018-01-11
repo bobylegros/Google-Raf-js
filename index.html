@@ -12,15 +12,13 @@
   <span>
     <span><a href="#">Gmail</a></span>
     <span><a href="#">Images</a></span>
-    <span><button id="apps" onclick="prout();"><img src="img/applications.png"></button></span>
-    <span><button id="connexion" onclick="toto();">Connexion</button></span>
+    <span><button id="apps" onclick="hideSection();"><img src="img/applications.png"></button></span>
+    <span><button id="connexion" onclick="showSection();">Connexion</button></span>
     <!--"toto" est de la syntaxe javascript-->
   </span>
 </header>
 <section id="section_button">
-  <form>
-    <button>De la balle</button>
-  </form>
+    <button onclick="showSection();">De la balle</button>
 </section>
 <section id="panel">
   <div id="logo">
@@ -29,11 +27,11 @@
   <div>
     <form>
       <div>
-        <input type="text" name="search">
+        <input id="google" type="text" name="search">
       </div>
       <div>
         <button>Recherche Google</button>
-        <button>J'ai de la chance</button>
+        <button onclick="updateInput();">J'ai de la chance</button>
       </div>
     </form>
   </div>
